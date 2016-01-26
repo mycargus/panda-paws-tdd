@@ -20,7 +20,7 @@ You're ready to begin TDDing!
 
 The only two files you'll need to focus on are `assignees_list.rb` (where the method skeleton is defined) and `specs/assignees_list_specs.rb` (where you'll code your automated tests).
 
-Note that numerous scenarios are already outlined in `specs/assignees_list_specs.rb`. Your task is to fill in the `it` blocks with code.
+Note that numerous scenarios are already outlined in `specs/assignees_list_specs.rb`. All but the first spec are commented out. Execute the spec and observe the failing result. This is good! Now add code to the `assignees_list()` method to make the spec pass. Repeat these steps until all the specs are uncommented and passing.
 
 To execute your automated specs, run `bundle exec spring rspec specs/assignees_list_specs.rb`
 
